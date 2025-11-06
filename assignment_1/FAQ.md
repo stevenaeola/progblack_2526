@@ -7,7 +7,10 @@
 
 Using pre-existing code modules on the server side is recommended. As long as it is installed properly with npm so that the dependency is included in your package.json file you don't need to do anything else.
 
-If you re-use, adapt or modify code taken from other sources (e.g. StackOverflow) then put a comment in your code pointing to the URL of the source. If you include code from a LLM (e.g. ChatGPT) include a comment with the prompt you used to create it and the LLM you used (including version)
+If you re-use, adapt or modify code taken from other sources (e.g. StackOverflow) then put a comment in your code pointing to the URL of the source. If you include code from a LLM (e.g. ChatGPT) include a comment with the prompt you used to create it and the LLM you used (including version). There are two reasons why it is not a good idea for you to use LLMs for the whole assignment:
+
+1. You may not learn how to do it yourself
+2. The code quality may well be poor and there are as many marks for code quality as for functionality
 
 ### What about using copyrighted content?
 
