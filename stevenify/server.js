@@ -1,10 +1,13 @@
 const express = require('express')
 const app = express()
 
-let songs = [ 'mr cellophane', 'john ball', 'jack frost', 'hold me now', 'only you'];
+const fs = require('fs');
+
+let songs = require("./songs.json")
 
 
 app.use(express.static('client'));
+app.use(express.json());
 
 
 app.get('/song/list', function (req, resp){
@@ -12,6 +15,11 @@ app.get('/song/list', function (req, resp){
 });
 
 app.post('/song/new', function(req, resp){
+  console.log("Post add new");
+  console.log("body is");
+  console.log(req.body);
+  songs.push(req.body.songtitle);
+  fs.writeFileSync('./songs.json', JSON.stringify(songs));
   resp.send("Thank you for you interest in stevenify. Your request has not been put into a queue")
 })
 
