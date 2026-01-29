@@ -184,7 +184,7 @@ The presentation mark (10%) will be awarded on the basis of
 
 ---
 
-# Submission Repository
+# Submission
 
 - Your learning log and your guide for learners should be held within a single private submission repository on GitHub
 - In the repository you should include a README file including a link to the submission repository on GitHub 
