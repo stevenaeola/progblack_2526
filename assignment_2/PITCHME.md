@@ -187,17 +187,17 @@ The presentation mark (10%) will be awarded on the basis of
 # Submission
 
 - Your learning log and your guide for learners should be held within a single private submission repository on GitHub
-- In the repository you should include a README file including a link to the submission repository on GitHub 
-- You should submit the entire content of the submission repository as a zip file
-- This is NOT THE SAME as the repository which contains any code you have worked on: this may well be public
+- In the repo you should include a README file including a link to the submission repo on GitHub 
+- You should submit the entire content of the submission repo as a zip file
+- This is NOT THE SAME as the repo which contains any code you have worked on: this may well be public
 
 ---
 
 ## Submission repository
 
-- Give me (username stevenaeola) access to the submission repository on GitHub
-- Allow access to the repository through Settings - Manage Access - Invite a collaborator
+- Give me (username stevenaeola) access to the submission repo on GitHub
+- Allow access to the repo through Settings - Manage Access - Invite a collaborator
 - If you do not allow access you will lose marks
-- Note that this does not affect the access to any code you may write, which would most likely be in a public repository
+- Note that this does not affect the access to any code you may write, which would most likely be in a public repo
 
 
